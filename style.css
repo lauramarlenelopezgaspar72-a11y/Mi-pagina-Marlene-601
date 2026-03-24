@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aliceblue;
+    background-color: rgb(248, 240, 255);
     margin: 0;
     line-height: 1.6;
 }
@@ -24,7 +24,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #f1c40f;
+    color: #a90ff1;
 }
 
 section {
