@@ -5,38 +5,105 @@
     <meta charset="UTF-8" />
     <meta mame="viewport" content=width=device-width, in itial-scale="1.0" />
     <title>mi pagina web </title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" /> 
+
+   
+
+<!-- Botón flotante -->
+    <a href="https://wa.me/529516498551?text=Hola%20quiero%20más%20información" 
+       class="whatsapp-float" 
+       target="_blank" 
+       rel="noopener noreferrer">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+             alt="WhatsApp" 
+             class="whatsapp-icon">
+    </a>
+    <a href="https://www.facebook.com/TU_PAGINA" target="_blank" rel="noopener noreferrer">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" 
+             alt="Facebook" width="40" height="40">
+    </a>
+    
 </head>
 </body>
 <header>
     <h1> mi pagina web </h1>
 </header>
-
-<section>
+<nav>
+    <a href="#sobre-mi">sobre mi </a>
+    <a href="#pec">proyecto PEC</a>
     </nav>
-    <h2> sobre mi </h2>
-    </p> hola, mi nombre es Laura Marlene Lopez Gaspar. </p>
-    </p> Soy licenciada en contaduria. </p>
-    </p> Me interesa todo relacionado a lo de cuentas. </p>
-    <img src="img/LAURA MARLENE LOPE.png" alt="seccion PEC" width="400px" height="200px">
+
+    <section id="sobre-mi">
+      <h1>Sobre mí</h1>
+       <p id="mensaje2" style="display:none;"></p>
+        <button onclick="Mostrar_Mensaje2()">Mostrar Mensaje</button>
+       <br><br> 
+      <img
+        src="img/LAURA MARLENE LOPE.png"
+        alt="Foto personal"
+        width="350"
+        height="200"
+      />
+
+      <h3>Hola, mi nombre es Laura Marlene Lopez Gaspar.</h3>
+
+      <h3>Soy estudiante en el CECYTEO-35.</h3>
+
+      <h3>Me interesa saber como funciona una pagina web.</h3>
+
+      <!-- <img src="imagen.jpg" alt="Descripción de la imagen"> -->
+    </section>
+
+    <section id="pec">
+
+        <h1>Proyecto Escolar Comunitario</h1>
+        <p id="mensaje" style="display:none;"></p>
+        <button onclick="Mostrar_Mensaje()">Mostrar Mensaje</button>
+
+      <h1>Huellas: cuidado animal y salud comunitaria</h1>
+      <img
+      src="img/HUELLAS CUIDADO ANIMAL Y SALUD COMUNITARIA.png"
+      alt="foto personal"
+      width="350"
+      height="200"
+      />
+
+      <p>
+        Este proyecto busca promover el cuidado responsable de los perros en la
+        comunidad de San Antonino el Alto.
+      </p>
+
+      <p>
+        La problemática principal es la presencia de perros en la vía pública,
+        muchos de ellos sin esterilizar o sin vacunas.
+      </p>
+
+      <p>
+        A través de este proyecto se busca crear conciencia sobre el bienestar
+        animal y la salud comunitaria.
+      </p>
+    </section>
+
+    <section id="contacto">
+  <h2>Contacto</h2>
+
+  <form class="formulario">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="correo">Correo:</label>
+    <input type="email" id="correo" name="correo" required>
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
 </section>
-<p> informacion personal.</P>
-</nav>
 
-<section>
-    <a href="#">proyecto PEC</a>
-    </h2> Proyecto Escolar comunitario </h2>
-
-    </h3> Proyecto Huellas </h3>
-    </p> El proyecto busca generar conciencia sobre el cuidado animal. </p>
-    </p> La problematica principal es el abondono de mascotas. </p>
-    <img src="img/HUELLAS CUIDADO ANIMAL Y SALUD COMUNITARIA.png" alt="sobre mi" width="400px" height="200px">
-</section>
-
-<footer>
-    <p>2026-marlene</p>
-</footer>
-<script src="Script.js"></script>
-</body>
-
+    <footer>
+      <p>2026 Marlene</p>
+    </footer>
+    <script src ="script.js"></script>
+  </body>
 </html>

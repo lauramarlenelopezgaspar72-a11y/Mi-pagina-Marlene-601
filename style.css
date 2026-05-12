@@ -5,14 +5,14 @@ body {
     line-height: 1.6;
 }
 header {
-    background-color: rgb(132, 0, 255);
+    background-color: rgb(225, 0, 255);
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 30px 20px;
 }
 nav {
     background-color: #46345e;
-    text-align: center;
+    text-align: center;s
     padding: 12px;
 }
 
@@ -73,4 +73,103 @@ button {
             color: #2ecc71;
             margin-top: 10px;
             }
+
+       
+       /* Estilos básicos para los botones */
+        .btn {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        /* Botón primario */
+        .btn-primary {
+            background-color: #007BFF;
+            color: white;
+        }
+        .btn-primary:hover {
+            background-color: #009eb3;
+        }
+
+        /* Botón secundario */
+        .btn-secondary {
+            background-color: #6c757d;
+            color: white;
+        }
+        .btn-secondary:hover {
+            background-color: #4a4e52;
+        }
+
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            background-color: #20b358;
+        }
+
+        /* Ícono de WhatsApp */
+        .whatsapp-icon {
+            width: 35px;
+            height: 35px;
+        }
+
+        #contacto {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.formulario {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formulario button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #25d366; /* estilo tipo WhatsApp */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background-color: #1ebe5d;
+}
             
